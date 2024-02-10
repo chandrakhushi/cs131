@@ -1,0 +1,60 @@
+    1  passwd
+    2  wget www.github.com
+    3  git clone https://github.com/chandrakhushi/cs131.git
+    4  cd cs131/
+    5  mkdir Worksheet1
+    6  history > cmds.log
+    7  git add cmds.log
+    8  git commit -m "Add command history log"
+    9  git push
+   10  git config --global user.name "khushisp24"
+   11  clear
+   12  cd ..
+   13  clear
+   14  cd .
+   15  cd ..
+   16  wget www.github.com
+   17  git config --global user.name "chandrakhushi"
+   18  git config --global user.email "khushi.chandra@outlook.com"
+   19  git clone git@github.com:chandrakhushi/cs131.git
+   20  cd cs 131
+   21  cd cs131
+   22  mkdir Worksheet1
+   23  history > cmds.log
+   24  git add cmds.log
+   25  git commit -m "Command history log added"
+   26  git push
+   27  wget www.github.com
+   28  git config --global user.name "chandrakhushi"
+   29  git config --global user.email "khushi.chandra@outlook.com"
+   30  git clone https://github.com/chandrakhushi/cs131.git
+   31  rm cs131/
+   32  rmdir cs131/
+   33  cd cs131/
+   34  cd 
+   35  rm -r cs131/
+   36  cd cs131/
+   37  ls
+   38  cd 
+   39  rmdir cs131/
+   40  rm -r cs131/.git/
+   41  ls
+   42  rm cs131/
+   43  rmdir cs131/
+   44  cd cs131/
+   45  ls
+   46  cd
+   47  ls
+   48  rmdir cs131
+   49  man rm
+   50  rm -rf cs131
+   51  cd cs131
+   52  clear
+   53  wget www.github.com
+   54  git config --global user.name "chandrakhushi"
+   55  git config --global user.email "khushi.chandra@outlook.com"
+   56  git clone https://github.com/chandrakhushi/cs131.git
+   57  cd cs131
+   58  mkdir Worksheet1
+   59  cd Worksheet1
+   60  history > cmds.log
