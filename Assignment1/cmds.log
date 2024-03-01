@@ -1,0 +1,138 @@
+    1  passwd
+    2  wget www.github.com
+    3  git clone https://github.com/chandrakhushi/cs131.git
+    4  cd cs131/
+    5  mkdir Worksheet1
+    6  history > cmds.log
+    7  git add cmds.log
+    8  git commit -m "Add command history log"
+    9  git push
+   10  git config --global user.name "khushisp24"
+   11  clear
+   12  cd ..
+   13  clear
+   14  cd .
+   15  cd ..
+   16  wget www.github.com
+   17  git config --global user.name "chandrakhushi"
+   18  git config --global user.email "khushi.chandra@outlook.com"
+   19  git clone git@github.com:chandrakhushi/cs131.git
+   20  cd cs 131
+   21  cd cs131
+   22  mkdir Worksheet1
+   23  history > cmds.log
+   24  git add cmds.log
+   25  git commit -m "Command history log added"
+   26  git push
+   27  wget www.github.com
+   28  git config --global user.name "chandrakhushi"
+   29  git config --global user.email "khushi.chandra@outlook.com"
+   30  git clone https://github.com/chandrakhushi/cs131.git
+   31  rm cs131/
+   32  rmdir cs131/
+   33  cd cs131/
+   34  cd 
+   35  rm -r cs131/
+   36  cd cs131/
+   37  ls
+   38  cd 
+   39  rmdir cs131/
+   40  rm -r cs131/.git/
+   41  ls
+   42  rm cs131/
+   43  rmdir cs131/
+   44  cd cs131/
+   45  ls
+   46  cd
+   47  ls
+   48  rmdir cs131
+   49  man rm
+   50  rm -rf cs131
+   51  cd cs131
+   52  clear
+   53  wget www.github.com
+   54  git config --global user.name "chandrakhushi"
+   55  git config --global user.email "khushi.chandra@outlook.com"
+   56  git clone https://github.com/chandrakhushi/cs131.git
+   57  cd cs131
+   58  mkdir Worksheet1
+   59  cd Worksheet1
+   60  history > cmds.log
+   61  git add cmds.log
+   62  git commit -m "Command history log added"
+   63  git push
+   64  ls
+   65  git push
+   66  sudo cat/etc/shadow
+   67  clear
+   68  git clone https://github.com/chandrakhushi/cs131.git
+   69  ls cs131
+   70  cd Worksheet1
+   71  vi Worksheet1
+   72  ls cs131
+   73  cd Worksheet1
+   74  wget www.github.com
+   75  git config --global user.name "chandrakhushi"
+   76  git config --global user.email "khushi.chandra@outlook.com"
+   77  git clone https://github.com/chandrakhushi/cs131.git
+   78  cd cs131
+   79  mkdir Worksheet2
+   80  cd Worksheet2
+   81  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+   82  grep "United States" Global\ YouTube\ Statistics.csv
+   83  grep "Music" Global\ YouTube\ Statistics.csv
+   84  grep "Music" Global\ YouTube\ Statistics.csv | wc -l > counts.txt
+   85  grep "Music" Global\ YouTube\ Statistics.csv | wc -w >> counts.txt
+   86  vi counts.txt
+   87  history > cmds.log
+   88  git commit -m "history logs added to worksheet2 with the text file"
+   89  git add cmds.log counts.txt
+   90  git commit -m "history logs added to worksheet2 with the text file"
+   91  git push -u origin main
+   92  wget www.github.com
+   93  git config --global user.name "chandrakhushi"
+   94  git config --global user.email "khushi.chandra@outlook.com"
+   95  git clone https://github.com/chandrakhushi/cs131.git
+   96  ls cs131
+   97  cd cd131
+   98  cd cs131
+------------------------------------------------------------
+Answer 1)
+   99  mkdir Assignment1
+  100  cd Assignment1
+-----------------------------------------------------------
+Answer 2)
+  101  echo $SHELL
+-----------------------------------------------------------
+Answer 3)
+  102  echo $HOME
+-----------------------------------------------------------
+Answer 3)
+  103  id
+----------------------------------------------------------
+Answer 4)
+  104  mkdir myDir
+  105  chmod u-w myDir
+-----------------------------------------------------------
+Answer 5)
+  106  mkdir myDir2
+  107  mkdir myDir3
+----------------------------------------------------------
+Answer 6)
+  108  touch myDir2/myFile.txt
+  109  mv myDir2/myFile.txt myDir3/
+----------------------------------------------------------
+  110  man free
+---------------------------------------------------------
+Answer 6)
+  111  free -m
+--------------------------------------------------------
+Answer 9)
+  112  cat /etc/*release
+---------------------------------------------------------
+Answer 10)
+  113  ls -l /etc/*release
+--------------------------------------------------------
+  114  vi cmds.log
+  115  cmds.log > history
+  116  history > cmds.log

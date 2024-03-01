@@ -1,0 +1,45 @@
+1) For making the directory I used: mkdir Assignment1
+
+2) Output  : /bin/bash 
+   Command : echo $SHELL
+
+2) Output  : /mnt/scratch/FA23_CS131_Ashish/khushisp24
+   Command : echo $HOME
+
+3) uid=1181(khushisp24), groups=1181(khushisp24),77(S77)  
+   Command : id, can also be found in /etc/passwd
+
+4) cd : yes, ls : yes, ls -l : yes, make a new file : no
+
+5) mkdir myDir2, mkdir myDir3 - Done
+
+6) touch myDir2/myFile.txt, mv myDir2/myFile.txt myDir3/
+   These commands make a file and then move th =ef ile from one directory to another.
+
+6) Command used is free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       33076       18991        3556       19300       33276
+Swap:          4119           0        4119
+
+  
+9) OS version : "8.6 (Ootpa)", File : /etc/os-release/
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+Red Hat Enterprise Linux release 8.6 (Ootpa)
+
+10) Permission is rwx (read write and execute) 
