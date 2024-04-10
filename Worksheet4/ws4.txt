@@ -1,0 +1,32 @@
+Script started on 2024-04-10 17:32:58-04:00
+bash-4.4$ vi ~/.bashrc
+source ~/.bashrc
+bash-4.4$ l
+total 0
+-rw-rw-r-- 1 khushisp24 khushisp24 0 Apr 10 17:32 ws4.txt
+bash-4.4$ w
+2
+bash-4.4$ ls -a
+.  ..  ws4.txt
+bash-4.4$ ls
+ws4.txt
+bash-4.4$ mkdir Subscribers
+bash-4.4$ cd Subscribers
+bash-4.4$ pwd
+/mnt/scratch/FA23_CS131_Ashish/khushisp24/cs131/Worksheet4/Subscribers
+bash-4.4$ wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+--2024-04-10 17:37:40--  https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 200279 (196K) [text/plain]
+Saving to: ‘Global YouTube Statistics.csv’
+Global YouTube Statistics   0%[                                   ]       0  --.-KB/s               Global YouTube Statistics 100%[==================================>] 195.58K  --.-KB/s    in 0.009s  
+2024-04-10 17:37:41 (21.8 MB/s) - ‘Global YouTube Statistics.csv’ saved [200279/200279]
+bash-4.4$ awk -F, '($8=="United States"){print $3}' 'Global YouTube Statistics.csv' > United_States.txt
+bash-4.4$ awk -F, '($8=="India"){print $3}' 'Global YouTube Statistics.csv' > India.txt
+bash-4.4$ awk '{sum+=$1; count++} END {print "Average for United States: " (count?sum/count:"NaN")}' United_States.txt > ws4_means.txt
+bash-4.4$ awk '{sum+=$1; count++} END {print "Average for India: " (count?sum/count:"NaN")}' India.txt >> ws4_means.txt
+bash-4.4$ exit
+
+Script done on 2024-04-10 18:04:53-04:00
