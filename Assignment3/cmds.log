@@ -1,0 +1,31 @@
+  291  cd cs131
+  292  pwd
+  293  mkdir Assignment3
+  294  cd Assignment3
+  295  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/last.fake
+  296  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/passwd.fake
+  297  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awksp24/ps.fake
+  298  man last
+  299  wc -l last.fake
+  300  grep 'sp24' last.fake > lastsp24.fake
+  301  wc -l lastsp24.fake
+  302  vi Assignment3.txt
+  303  grep "Sun" lastsp24.fake | awk '{print $1}' | sort | uniq
+  304  echo "The list of people who worked on Sunday are:"
+  305  awk '/Sun/ {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "The list of people who worked on Sunday are:"} {print} END {print "Kudos to these people for putting in the work"}'
+  306  vi Assignment3
+  307  vi Assignment3.txt
+  308  awk '$4 >= "23:00" || $4 <= "04:00" {print $1}' lastsp24.fake | sort | uniq
+  309  awk '$4 >= "23:00" || $4 <= "04:00" {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Night Owls List:"} {print} END {print "Night Owls are dope. Please ensure you get enough sleep though."}'
+  310  vi Assignment3.txt
+  311  awk '$4 >= "05:00" && $4 <= "09:00" {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  312  awk '$4 >= "05:00" && $4 <= "09:00" {print $1}' lastsp24.fake | sort | uniq
+  313  awk '$4 >= "05:00" && $4 <= "09:00" {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
+  314  vi Assignment3.txt
+  315  awk '/^t/ {print $1}' lastsp24.fake | sort | uniq
+  316  vi Assignment3.txt
+  317  awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake | sort | uniq
+  318  vi Assignment3.txt
+  319  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+  320  vi Assignment3.txt
+  321  history >> cmds.log
