@@ -101,6 +101,11 @@ Task 4:
 Command used: awk '$4 >= "05:00" && $4 <= "09:00" {print $1}' lastsp24.fake | sort | uniq | awk 'BEGIN {print "Early Birds List:"} {print} END {print "Early Birds are dope. Please ensure you get enough sleep though."}'
 Output of command:
 Early Birds List:
+aayushsp24
+ajaysp24
+ericsp24
+gradysp24
+ronsp24
 Early Birds are dope. Please ensure you get enough sleep though.
 
 Task 5:
